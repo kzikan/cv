@@ -1,15 +1,27 @@
 - skill:
+  name: English
+  level: Native
+- skill:
+  name: Russian
+  level: 2nd yr college
+- skill:
+  name: Chinese
+  level: 2 yrs high school
+- skill:
   name: Python
-  level: 25%
+  level: Novice
 - skill:
-  name: Mathematica
-  level: 25%
+  idiom: Mathematica
+  level: Intermediate; use in classwork
 - skill:
-  name: Digital Software
-  level: 98%
+  name: Digital Software: ArtRage, Clip Studio Paint
+  level: Avid digital artist
 - skill:
   name: Excel
-  level: 85%
+  level: Use extensively in class work
 - skill:
   name: Photoshop
-  level: 25%
+  level: Basic image editing
+- skill:
+  name: First Aid
+  level: Basic First Aid, CPR, Wilderness First Aid

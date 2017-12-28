@@ -1,24 +1,19 @@
 - intro:
-  description: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor
-  sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+  description: ""
 
 - project:
-  title: Velocity
+  title: Number Theory in Budapest
+  link: "#"
+  tagline: "St Olaf winter interim program in Number Theory in Budapest, Hungary.  January 2018."
+- project:
+  title: Mathematics coursework
   link: "#hook"
-  tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  tagline: "Statistics 2 yrs (HS), Calculus 2yrs (HS), Linear Algebra, Multivariate Calculus, Differential Equations"
 - project:
-  title: DevStudio
-  link: "#"
-  tagline: "A responsive website template designed to help web developers/designers market their services."
+  title: Physics
+  link: ""
+  tagline: "Intro Physics (HS), Quantitative Physics (HS), Analytical Physics I, Analytical Physics Lab"
 - project:
-  title: Tempo
-  link: "#"
-  tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-- project:
-  title: Atom
-  link: "#"
-  tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-- project:
-  title: Delta
-  link: "#"
-  tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  title: Great Conversations
+  link: ""
+  tagline: ""

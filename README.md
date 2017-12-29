@@ -12,6 +12,7 @@ I modified Webjeda's design to make it more suitable for a college resume.
 * Edit `_data\coursework.yml` with your coursework (if you want that).
 * Edit `_data\skills.yml` with your skills (if you want that).
 * Edit `index.html` and remove/add sections you want.
+* If you want to change the headers (like Work Experience), edit the correspoding file in `_includes\*.html`.
 * Add your picture to `assets\images\profile.png`.
 
 You can find more themes at [**Jekyll Themes**](http://jekyll-themes.com)

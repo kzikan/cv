@@ -7,14 +7,14 @@
     <div class="item">
 
       <span class="project-title">
-      {% if course.tagline %}
+      {% if course.link %}
       <a href="{{ course.link }}">{{ course.title }}</a>
       {% else %}
       {{ course.title }}
       {% endif %}
       </span>
 
-      {% if project.tagline %}
+      {% if course.tagline %}
       - <span class="project-tagline">{{ course.tagline }}</span>
       {% endif %}
 

@@ -1,28 +1,17 @@
-This theme is designed by Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/). Visit her website for more themes [http://themes.3rdwavemedia.com/](http://themes.3rdwavemedia.com/)
+This theme was designed by Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/). Visit her website for more themes [http://themes.3rdwavemedia.com/](http://themes.3rdwavemedia.com/).  [Webjeda](http://webjeda.com) made this into a Jekyll Theme: [http://webjeda.com/online-cv/](http://webjeda.com/online-cv/).  Visit their website for more Jekyll themes and for custom website design.
 
-
-I have made this into a Jekyll Theme.
-**Demo:** [http://webjeda.com/online-cv/](http://webjeda.com/online-cv/)
-
-The default theme would look like this
-
-![online cv Jekyll theme](https://github.com/sharu725/online-cv/raw/master/assets/images/online-cv-jekyll-theme.png)
-
-The theme is responsive
-
-![online cv responsive Jekyll theme](https://github.com/sharu725/online-cv/raw/master/assets/images/online-cv-responsive-jekyll-theme.png)
-
-There are 6 color schemes available
-
-![online cv Jekyll theme](https://github.com/sharu725/online-cv/raw/master/assets/images/online-cv-jekyll-theme-2.png)
+I modified Webjeda's design to make it more suitable for a college resume.
 
 ## Installation
 * Fork the repository
-* Go to settings and set Github Pages source as master.
+* Go to settings of your repository and set Github Pages source as master.
 * Your new site should be ready at https://username.github.io/online-cv/
+* If you change the name of your repository, change the baseurl in `_config.yml`
+* Edit `_config.yml` with your name, education and 
+* Edit `_data\experiences.yml` with your work experience.
+* Edit `_data\coursework.yml` with your coursework (if you want that).
+* Edit `_data\skills.yml` with your skills (if you want that).
+* Edit `index.html` and remove/add sections you want.
+* Add your picture to `assets\images\profile.png`.
 
-[Watch my video on instlallation](https://www.youtube.com/embed/T2nx6tj-ZH4)
-
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
-
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com)
+You can find more themes at [**Jekyll Themes**](http://jekyll-themes.com)

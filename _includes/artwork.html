@@ -1,0 +1,31 @@
+{% if site.data.artwork %}
+<section class="section experiences-section">
+  <h2 class="section-title"><i class="fa fa-picture-o"></i>Artwork</h2>
+
+{% for item in site.data.artwork %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="job-title">{{ artwork.title }}</h3>
+        <div class="time">{{ artwork.time }}</div>
+      </div><!--//upper-row-->
+
+      <div class="company">{{ artwork.company }}</div>
+
+    </div><!--//meta-->
+
+    {% if artwork.details %}
+    <div class="details">
+      <p>{{ artwork.details }}</p>
+    </div><!--//details-->
+    {% endif %}
+    
+    <img src="{{site.baseurl}}/artwork/{{ artwork.pic }}" alt="artwork picture" width="400"/>
+
+  </div><!--//item-->
+{% endfor %}
+
+</section><!--//section-->
+{% endif %}

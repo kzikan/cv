@@ -10,7 +10,7 @@ baseurl: '/cv' #change it according to your repository name
 #style: styles-5
 #style: styles-6
 # modified slightly
-style: styles-kz
+style: style-kz
 
 #Profile information
 name: Karina Zikan

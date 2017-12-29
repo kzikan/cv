@@ -25,3 +25,9 @@
 - skill:
   name: First Aid
   level: Basic First Aid, CPR, Wilderness First Aid
+- skill:
+  name: Cross-country skiing
+  level: Level-I PSIA certified ski instructor
+- skill:
+  name: Wilderness canoeing
+  level: Yukon River-Yukon Territory, Noatak River-Alaska, Athabasca River-Alberta, Stikine River-Alaska, and others

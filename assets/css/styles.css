@@ -233,6 +233,18 @@ p {
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
 }
+.main-wrapper .skill-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.main-wrapper .skills-section .intro {
+  margin-bottom: 30px;
+}
+.main-wrapper .skills-section .item {
+  margin-bottom: 15px;
+}
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;

@@ -1,0 +1,11 @@
+- item:
+  title: Book Cover
+  time: Summer 2017
+  company: Jimmy Jai, Seattle WA
+  details: "A book cover for an online book on Amazon.com."
+  pic: book.png
+- item:
+  title: Poster for Little House of Horrors
+  time: Fall 2015
+  company: University Prep Theater Dept, Seattle WA
+  pic: horror.png

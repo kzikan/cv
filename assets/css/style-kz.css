@@ -322,3 +322,87 @@ used for profile image
   border-radius: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
+
+/* 
+printing css
+*/
+@media print {
+  a[href]:after {
+    content: "";
+  }
+  .footer {
+  display: none;
+  }
+.sidebar-wrapper {
+  border-left: 2px solid gray;
+  float: right;
+  position: relative;
+  height: 1000px;
+  display:block;
+  margin-left: 10px;
+  }
+  ul {
+  page-break-inside: avoid;
+  }
+  h1, h2, h3, h4, h5, h6 {
+  page-break-after:avoid;
+  page-break-inside:avoid
+}
+ 
+img {
+  page-break-inside:avoid;
+  page-break-after:avoid;
+}
+ 
+blockquote, table, pre {
+  page-break-inside:avoid
+} 
+ 
+ul, ol, dl {
+  page-break-before:avoid
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.main-wrapper {
+  padding: 10px;
+/*   
+  padding-top: 0px;
+  padding-right: 300px;
+*/
+}
+
+.main-wrapper .section-title {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.main-wrapper .project-title {
+  font-size: 14px;
+}
+.main-wrapper .job-title {
+  font-size: 14px;
+}
+.main-wrapper .section {
+  margin-bottom: 20px;
+}
+.main-wrapper .projects-section .item {
+  margin-bottom: 10px;
+}
+.main-wrapper .experiences-section .item {
+  margin-bottom: 10px;
+}
+.main-wrapper .company {
+  margin-bottom: 2px;
+}
+.main-wrapper .experiences-section p {
+  line-height: 1;
+  margin-bottom: 10px;
+}
+@page {
+  margin: 2cm;
+  }
+}

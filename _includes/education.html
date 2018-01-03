@@ -8,6 +8,9 @@
       <h4 class="degree">{{ education.degree }}</h4>
       <h5 class="meta">{{ education.university }}</h5>
       <div class="time">{{ education.time }}</div>
+     {% if education.gpa %}
+      <div class="time">GPA {{ education.gpa }}</div>
+     {% endif %}
     </div><!--//item-->
   {% endfor %}
 

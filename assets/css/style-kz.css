@@ -337,7 +337,7 @@ printing css
   border-left: 2px solid gray;
   float: right;
   position: relative;
-  height: 1000px;
+  height: 900px;
   display:block;
   margin-left: 10px;
   }
@@ -403,8 +403,8 @@ body {
   margin-bottom: 10px;
 }
 .profile-img {
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 100px;
+  max-height: 100px;
   margin-bottom: 15px;
   border: 0px solid #fff;
   border-radius: 100%;

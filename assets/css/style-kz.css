@@ -402,6 +402,14 @@ body {
   line-height: 1;
   margin-bottom: 10px;
 }
+.profile-img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-bottom: 15px;
+  border: 0px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
 }
 @page {
   margin: 2cm;

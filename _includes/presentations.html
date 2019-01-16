@@ -3,16 +3,16 @@
 
   <h2 class="section-title"><i class="fa fa-archive"></i>Presentations</h2>
 
-  {% for intro in site.data.presentations %}
-  <div class="intro">
-      <p>{{ intro.description }}</p>
-  </div><!--//intro-->
-  {% endfor%}
-
   {% for presentation in site.data.presentations %}
     <div class="item">
 
-      <span class="project-title"><a href="{{ presentation.link }}">{{ presentation.title }}</a></span>
+      <span class="project-title">
+      {% if presentation.link %}
+      <a href="{{ presentation.link }}">{{ presentation.title }}</a>
+      {% else %}
+      {{ presentation.title }}
+      {% endif %}
+      </span>
 
       -
       

@@ -1,28 +1,33 @@
-- intro:
-  description: ""
-
 - presentation:
-  title: Effect of sunlight on plants
-  link: "#"
+  title: Validating MODIS Land Surface Temperatures Using In-situ Skin Temperature Data across Greenland
   year: 2018
-  author: K. Zikan, M. Currie, I. Newton
+  author: K. Zikan, W. Brown, A. Adolph, R. Fausto
   type: Poster
+  link: https://agu.confex.com/agu/fm18/meetingapp.cgi/Paper/409340
   venue: American Geophysical Union Annual Meeting
   location: Washington DC, Dec. 2018
 - presentation:
-  title: Effect of water on plants
-  link: ""
+  title: Quantifying Near-Surface Inversions at Sites across the Greenland Ice Sheet
   year: 2018
-  author: K. Zikan
+  author: W. Brown, K. Zikan, A. Adolph, R. Fausto
   type: Poster
-  venue: Midwestern Undergraduate Symposium
-  location: St Louis, MO. Nov 2018
+  link: https://agu.confex.com/agu/fm18/meetingapp.cgi/Paper/410615
+  venue: American Geophysical Union Annual Meeting
+  location: Washington DC, Dec. 2018
 - presentation:
-  title: Effect of air on plants
-  link: ""
+  title: Quantifying two-meter near-surface inversions at sites across the Greenland Ice Sheet
   year: 2018
-  author: K. Zikan
+  link: http://elevator.stolaf.edu/curi/asset/viewAsset/5b61bb9129b266780b765131
+  author: W. Brown, K. Zikan, A. Adolph
+  type: Poster
+  venue: CURI 2018 Symposium
+  location: St Olaf College, Northfield, MN. Aug 2018
+- presentation:
+  title: Validating MODIS Land Surface Temperatures Using In-situ Skin Temperature Data across Greenland
+  link: http://elevator.stolaf.edu/curi/asset/getEmbed/5b61ca6b29b26677fb5f5f31
+  year: 2018
+  author: K. Zikan, W. Brown, A. Adolph
   type: Poster
   venue: St Olaf CURI Symposium
-  location: St Olaf College, MN. Oct 2018
+  location: St Olaf College, Northfield, MN. Aug 2018
 

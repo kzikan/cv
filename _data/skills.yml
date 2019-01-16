@@ -3,22 +3,34 @@
   level: Native
 - skill:
   name: Russian
-  level: 2nd yr college
+  level: 2 yrs college
 - skill:
   name: Chinese
   level: 2 yrs high school
+  - skill:
+  name: MatLab
+  level: Intermediate; extensive use in research
+- skill:
+  name: JMP
+  level: Intermediate; use in research
 - skill:
   name: Python
-  level: Novice
+  level: Intermediate; use in classwork
 - skill:
   name: Mathematica
   level: Intermediate; use in classwork
 - skill:
-  name: ArtRage, Clip Studio Paint
-  level: 4 yrs experience as avid digital artist
+  name: Linux
+  level: Novice; use in research
+- skill:
+  name: R
+  level: Novice; use in classwork
 - skill:
   name: Excel
   level: Use extensively in class work
+- skill:
+  name: ArtRage, Clip Studio Paint
+  level: 5 yrs experience as avid digital artist
 - skill:
   name: Photoshop
   level: Basic image editing

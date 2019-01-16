@@ -12,10 +12,10 @@
   {% for presentation in site.data.presentations %}
     <div class="item">
 
-      <span class="presentation-title"><a href="{{ presentation.link }}">{{ presentation.title }}</a></span>
+      <span class="project-title"><a href="{{ presentation.link }}">{{ presentation.title }}</a></span>
 
       {% if presentation.citation %}
-      - <span class="presentation-citation">{{ presentation.year }}. {{ presentation.type }}. {{ presentation.author }}. {{ presentation.venue }}. {{ presentation.location }}.</span>
+      - <span class="project-tagline">{{ presentation.citation }}.</span>
       {% endif %}
 
     </div><!--//item-->

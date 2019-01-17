@@ -25,16 +25,26 @@
       {% endif %}
 
       {% if presentation.type %}
-      <span class="project-tagline">{{ presentation.type }}.</span>
+      <span class="project-tagline"> {{ presentation.type }}.</span>
       {% endif %}
 
       {% if presentation.venue %}
-      <span class="project-tagline">{{ presentation.venue }}.</span>
+      <span class="project-tagline"> {{ presentation.venue }}.</span>
       {% endif %}
 
       {% if presentation.location %}
-      <span class="project-tagline">{{ presentation.location }}.</span>
+      <span class="project-tagline"> {{ presentation.location }}.</span>
       {% endif %}
+      
+      {% if presentation.extra %}
+      <span class="project-tagline"> {{ presentation.other }}.</span>
+      {% endif %}
+      
+      {% if presentation.pdf %}
+      <span class="project-tagline"> [<a href="{{ presentation.pdf }}">{{ presentation.pdf }}</a>]</span>
+      {% endif %}
+
+
 
     </div><!--//item-->
   {% endfor %}

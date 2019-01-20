@@ -1,10 +1,10 @@
 - intro:
   description: ""
 
-- project:
-  title: Number Theory in Budapest
+- project: Project 1
+  title: Effect of sunlight on plants
   link: "#"
-  tagline: "St Olaf winter interim program in Number Theory in Budapest, Hungary.  January 2018."
+  tagline: "Poster. American Geophysical Union Annual Meeting. Washington DC. December 2018."
 - project:
   title: Mathematics coursework
   link: "#hook"
@@ -13,7 +13,4 @@
   title: Physics
   link: ""
   tagline: "Intro Physics (HS), Quantitative Physics (HS), Analytical Physics I, Analytical Physics Lab"
-- project:
-  title: Great Conversations
-  link: ""
-  tagline: ""
+

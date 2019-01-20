@@ -7,6 +7,7 @@
   tagline: "Statistics 2 yrs (HS), Calculus 2yrs (HS), Linear Algebra, Multivariate Calculus, Differential Equations, Abstract Algebra, Real Analysis, Statistics for the Sciences"
 - course:
   title: Physics
+  link: https://wp.stolaf.edu/physics/
   tagline: "Intro Physics (HS), Quantitative Physics (HS), Analytical Physics I, Analytical Physics II, Analytical Physics III, Analytical Physics Labs"
 - course:
   title: Great Conversations
@@ -17,5 +18,5 @@
   title: High Mountain Institute
   link: https://www.hminet.org/
   tagline: "During high school, I spent a semester studying environmental science and outdoor leadership in Leadville, Colorado.
-  Half the semester was spent on winter expeditions in Utah and Colorado."
+  Half the semester was spent on winter expeditions in Utah and Colorado doing environmental science."
   

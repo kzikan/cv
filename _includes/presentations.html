@@ -1,0 +1,53 @@
+{% if site.data.presentations %}
+<section class="section projects-section">
+
+  <h2 class="section-title"><i class="fa fa-microphone"></i>Scientific Presentations</h2>
+
+  {% for presentation in site.data.presentations %}
+    <div class="item">
+
+      <span class="project-title">
+      {% if presentation.link %}
+      <a href="{{ presentation.link }}">{{ presentation.title }}</a>
+      {% else %}
+      {{ presentation.title }}
+      {% endif %}
+      </span>
+
+      -
+      
+      {% if presentation.year %}
+      <span class="project-tagline"> {{ presentation.year }}.</span>
+      {% endif %}
+
+      {% if presentation.author %}
+      <span class="project-tagline"> {{ presentation.author }}.</span>
+      {% endif %}
+
+      {% if presentation.type %}
+      <span class="project-tagline"> {{ presentation.type }}.</span>
+      {% endif %}
+
+      {% if presentation.venue %}
+      <span class="project-tagline"> {{ presentation.venue }}.</span>
+      {% endif %}
+
+      {% if presentation.location %}
+      <span class="project-tagline"> {{ presentation.location }}.</span>
+      {% endif %}
+      
+      {% if presentation.extra %}
+      <span class="project-tagline"><i>{{ presentation.extra }}</i>.</span>
+      {% endif %}
+      
+      {% if presentation.pdf %}
+      <span class="project-tagline"> [<a href="{{ presentation.pdf }}">pdf</a>]</span>
+      {% endif %}
+
+
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
